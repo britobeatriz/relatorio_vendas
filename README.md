@@ -10,15 +10,21 @@ Por fim o modelo ficou assim:
 
 ![Medidas](/imagens/readme_img/TAB_DIM_MEDIDAS.png) 
 
-#Criação de calculos com linguagem M
+# Criação de calculos com linguagem M
 
 Calculo do faturamento:
+
+&nbsp;
 ```faturamento = SUM(vendas[ValorVenda])```
 
 Quantidade de pedidos:
+
+&nbsp;
 ```qtde_pedidos = COUNTROWS(vendas)```
 
 Ticket médio:
+
+&nbsp;
 ```ticket_medio = DIVIDE([faturamento],[qtde_pedidos])```
 
 ![texto](/imagens/readme_img/DASHBOARD.jpg) 
